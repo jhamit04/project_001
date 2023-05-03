@@ -51,11 +51,17 @@ a.navbar-content {
     bottom: 0;
     background-color: #13101036;
     color: white;
+    height: 37%;
+    bottom: 3px;
+    padding-left: 10px;
 }
 .upper-content-left {
     display: inline-block;
-    position: absolute;
+    position: relative;
     height: 291px;
+    width: 49%;
+    vertical-align: top;
+    overflow: auto;
 }
 .lower-content-right {
     width: 40%;
@@ -79,9 +85,15 @@ table.lower-content-left {
     width: 40%;
     display: inline-block;
 }
-div>p{
-    display: inline-block;
+.top-news {
+    height: 15%;
+}
+.top-news>p{
+display: inline-block;
+}
+.top-news-content {
+    height: 85%;
 }
 .top-news-content>p{
-    height: 10px;
+    height: 15%;
 }
